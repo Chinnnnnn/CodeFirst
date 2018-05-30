@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst.Domain", "CodeFirst.Domain\CodeFirst.Domain.csproj", "{A99847A2-1915-4593-BC23-56782C19123D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst.Data", "CodeFirst.Data\CodeFirst.Data.csproj", "{DD4F2C08-92A4-40C3-A206-EF353F7C2977}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A99847A2-1915-4593-BC23-56782C19123D} = {A99847A2-1915-4593-BC23-56782C19123D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A99847A2-1915-4593-BC23-56782C19123D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99847A2-1915-4593-BC23-56782C19123D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99847A2-1915-4593-BC23-56782C19123D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99847A2-1915-4593-BC23-56782C19123D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4F2C08-92A4-40C3-A206-EF353F7C2977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4F2C08-92A4-40C3-A206-EF353F7C2977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4F2C08-92A4-40C3-A206-EF353F7C2977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4F2C08-92A4-40C3-A206-EF353F7C2977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
